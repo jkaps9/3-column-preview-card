@@ -68,11 +68,33 @@ a.button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
     padding: 3rem;
+
+    &:nth-child(1) {
+      background-color: var(--Gold-500);
+      a.button {
+        color: var(--Gold-500);
+      }
+    }
+    &:nth-child(2) {
+      background-color: var(--Cyan-800);
+      a.button {
+        color: var(--Cyan-800);
+      }
+    }
+    &:nth-child(3) {
+      background-color: var(--Green-950);
+      a.button {
+        color: var(--Green-950);
+      }
+    }
   }
 
   img {
     margin-bottom: 40px;
+    width: 63.92px;
+    height: 40px;
   }
 
   .text {
