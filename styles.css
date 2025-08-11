@@ -24,8 +24,7 @@
   font-family: "Lexend Deca";
   font-style: normal;
   font-weight: 400;
-  src: url("../assets/fonts/lexend-deca-v24-latin-regular.woff2")
-    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("./assets/fonts/lexend-deca-v24-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* big-shoulders-700 - latin */
@@ -34,7 +33,7 @@
   font-family: "Big Shoulders";
   font-style: normal;
   font-weight: 700;
-  src: url("../assets/fonts/big-shoulders-v3-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("./assets/fonts/big-shoulders-v3-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 body {
@@ -43,7 +42,7 @@ body {
 }
 
 h2 {
-  font-family: "Big Shoulders";
+  font-family: "Big Shoulders", sans-serif;
   font-size: 40px;
   line-height: 1.2em;
   font-weight: 700;
@@ -52,7 +51,7 @@ h2 {
 
 p,
 a {
-  font-family: "Lexend Deca";
+  font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.65em;
