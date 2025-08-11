@@ -146,6 +146,7 @@ a.button {
   #three-card {
     .container {
       display: flex;
+      max-width: 1120px;
     }
     .card {
       max-width: 21vw;
