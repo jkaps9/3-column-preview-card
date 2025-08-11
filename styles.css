@@ -148,7 +148,7 @@ a.button {
       display: flex;
     }
     .card {
-      width: 20vw;
+      max-width: 21vw;
 
       &:nth-child(1) {
         border-top-right-radius: 0rem;
